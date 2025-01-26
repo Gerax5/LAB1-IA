@@ -4,9 +4,7 @@ Considera un modelo de regresión lineal con dos características, X₁ y X₂, 
 w₂. Si el modelo predice una salida y mediante la ecuación y = 2w₁X₁ + 3w₂X₂ + 1, ¿cuál es la interpretación 
 del coeficiente 3w₂ en el contexto del modelo? 
 
-    -----------------
-
-
+    El coeficiente 3w₂ multiplica a X₂, siendo el cambio en la variable dependiente (y), por cada unidad de cambio en la variable dependiente X₂.Y la otra variable independiente, X₁,  se mantiene constante. 
 
 
 -----------
@@ -21,7 +19,7 @@ multicolinealidad a la interpretación de los coeficientes de regresión individ
     - Significancia estadística, la multicolinealidad puede hacer que los coeficientes de las variables se vean que no son significativos, teniendo valores p altos, a pesar que si estas variables tengan una relación real con la variable dependiente. Esto se da porque la varianza de los coeficientes aumenta, y reduce la precisión de los resultados.  
 
     - Errores estándar elevados, esto se debe a que pueden ser muy grandes por la multicolianealidad, llevando a los intervalos de confianza amplios y esto dificulta la determinación precisa del efecto de cada variable dependiente. 
-    
+
     - Dificultad de interpretación, por sus efectos mezclados por la alta correlación entre ellas es muy difícil interpretar el efecto individual de cada variable independiente. Entonces, es complicado determinar la variación en la variable dependiente se debe a una variable independiente especifica. 
 
 
